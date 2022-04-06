@@ -3,10 +3,11 @@ import Home from "./Home";
 import About from "./About";
 import Work from "./Work";
 import Contact from "./Contact";
+import Error from "./Error";
 
 const logo = (
   <svg
-    className="fill-black dark:fill-white"
+    className="fill-black dark:fill-white lg:hover:fill-blue-500"
     xmlns="http://www.w3.org/2000/svg"
     width="50"
     height="50"
@@ -46,17 +47,17 @@ const logo = (
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex items-center justify-around font-sans text-sm shadow-sm shadow-gray-500 dark:text-white ">
+      <ul className="flex items-center justify-around font-sans text-sm shadow-sm shadow-gray-500 dark:text-white">
         <li>
           <Link to="/">{logo}</Link>
         </li>
-        <li>
+        <li className="lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2">
           <Link to="/about">About</Link>
         </li>
-        <li>
+        <li className="lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2">
           <Link to="/work">Work</Link>
         </li>
-        <li>
+        <li className="lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2">
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
@@ -66,6 +67,7 @@ const Nav = () => {
         <Route path="about" element={<About />} />
         <Route path="work" element={<Work />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </nav>
   );

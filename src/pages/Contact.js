@@ -1,3 +1,5 @@
+import "animate.css";
+
 const gh = (
   <svg
     className="mr-4 dark:fill-white"
@@ -63,39 +65,68 @@ const em = (
   </svg>
 );
 
+const ph = (
+  <svg
+    className="mr-4 dark:stroke-white"
+    xmlns="http://www.w3.org/2000/svg"
+    height="50"
+    width="50"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    strokeWidth={2}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+    />
+  </svg>
+);
+
 const Contact = () => {
   return (
-    <div className="my-16 h-screen space-y-8 px-6 font-sans dark:text-white lg:mr-72">
-      <h1 className="font-serif text-6xl">Contact</h1>
-      <p className="">Here are some ways you can get in touch with me 📱</p>
-      <div className="lg:flex lg:justify-between">
+    <div className="my-16 mx-8 h-screen space-y-8 px-6 font-sans dark:text-white md:mx-36 lg:mx-72">
+      <h1 className="animate__animated animate__fadeInDown font-serif text-7xl">
+        Contact
+      </h1>
+      <p className="font-serif">How to get in touch with me 📱</p>
+      <hr />
+      <div className="grid grid-cols-2 gap-2 space-y-4 lg:grid-cols-3">
         <a
-          className="flex items-center lg:hover:underline lg:hover:decoration-2"
+          className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="https://github.com/YinChuRijnaard"
           target="_blank"
         >
           {gh}GitHub
         </a>
         <a
-          className="flex items-center lg:hover:underline lg:hover:decoration-2"
+          className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="https://www.linkedin.com/in/rijnaard/"
           target="_blank"
         >
           {li}LinkedIn
         </a>
         <a
-          className="flex items-center lg:hover:underline lg:hover:decoration-2"
+          className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="https://twitter.com/yinchurijnaard"
           target="_blank"
         >
           {tw}Twitter
         </a>
         <a
-          className="flex items-center lg:hover:underline lg:hover:decoration-2"
+          className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="mailto:ycrijnaard@gmail.com"
           target="_blank"
         >
           {em}Email
+        </a>
+        <a
+          className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
+          href="tel:+31618058625"
+          target="_blank"
+        >
+          {ph}Telephone
         </a>
       </div>
     </div>

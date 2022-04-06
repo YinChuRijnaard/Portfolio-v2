@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="my-6 mx-8 flex h-screen flex-col items-center justify-center space-y-8 px-6 text-center font-serif text-4xl dark:text-white md:mx-36 lg:mx-72">
-      {/* Find other way to dead-center div above (not using my-6) */}
+    <div className="mx-8 flex h-screen flex-col items-center justify-center space-y-8 px-6 text-center font-serif text-4xl dark:text-white md:mx-36 lg:mx-72">
+      {/* Find other way to dead-center div above */}
       <p className="opacity-75">Hi, I'm</p>
       <p className="text-7xl">Yin Chu</p>
       <p className="opacity-75">

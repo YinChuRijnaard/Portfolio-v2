@@ -15,7 +15,7 @@ const Work = () => {
         <p>
           <strong>Built with:&nbsp;</strong>React and Tailwind CSS
         </p>
-        <div className="flex items-center justify-start">
+        <div className="flex items-center justify-start text-center">
           <a
             className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://ycrdev.netlify.app/"
@@ -51,7 +51,7 @@ const Work = () => {
         <p>
           <strong>Built with:&nbsp;</strong>React, TypeScript and Tailwind CSS
         </p>
-        <div className="flex items-center justify-start">
+        <div className="flex items-center justify-start text-center">
           <a
             className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://tenzies-ycr.netlify.app/"
@@ -78,7 +78,7 @@ const Work = () => {
         <p>
           <strong>Built with:&nbsp;</strong>HTML, CSS and JavaScript
         </p>
-        <div className="flex items-center justify-start">
+        <div className="flex items-center justify-start text-center">
           <a
             className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://yinchurijnaard.github.io/Palindrome-Checker/"

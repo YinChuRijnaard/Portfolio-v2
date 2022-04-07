@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="mx-8 my-12 flex h-screen flex-col items-center justify-start space-y-8 px-6 text-center font-serif text-4xl dark:text-white md:mx-36 lg:my-36 lg:mx-72">
+    <div className="mx-8 my-24 flex h-screen flex-col items-center justify-start space-y-8 px-6 text-center font-serif text-4xl dark:text-white md:mx-36 lg:mx-72 lg:text-5xl xl:my-24 2xl:my-48">
       <p className="opacity-75">Hi, I'm</p>
-      <p className="text-6xl">Yin Chu</p>
+      <p className="text-7xl lg:text-8xl">Yin Chu</p>
       <p className="opacity-75">
         Web developer from Athens. I create stuff for the internet.
       </p>

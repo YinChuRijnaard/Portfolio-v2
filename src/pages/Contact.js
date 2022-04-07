@@ -86,7 +86,7 @@ const ph = (
 
 const Contact = () => {
   return (
-    <div className="my-16 mx-8 h-screen space-y-8 px-6 font-sans dark:text-white md:mx-36 lg:mx-72">
+    <div className="my-16 mx-8 h-screen space-y-8 px-6 font-sans dark:text-white md:mx-36 lg:mx-72 2xl:mx-96">
       <h1 className="animate__animated animate__fadeInDown font-serif text-7xl">
         Contact
       </h1>

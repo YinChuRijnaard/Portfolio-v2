@@ -3,8 +3,8 @@ import "animate.css";
 const html = (
   <svg
     className="mr-4"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 0 2000 2000"
     enable-background="new 0 0 2000 2000"
   >
@@ -46,8 +46,8 @@ const css = (
   <svg
     className="mr-4"
     fill="none"
-    height="50"
-    width="50"
+    height="36"
+    width="36"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 124 141.53"
   >
@@ -66,8 +66,8 @@ const css = (
 const js = (
   <svg
     className="mr-4"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 0 256 256"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMinYMin meet"
@@ -80,8 +80,8 @@ const js = (
 const ts = (
   <svg
     className="mr-4"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 0 256 256"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -110,8 +110,8 @@ const ts = (
 const react = (
   <svg
     className="mr-4 fill-white dark:fill-black"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 -13 256 256"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMinYMin meet"
@@ -138,8 +138,8 @@ const react = (
 const rr = (
   <svg
     className="mr-4 fill-black dark:fill-white"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 -58 256 256"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -161,8 +161,8 @@ const rr = (
 const twcss = (
   <svg
     className="mr-4"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 -51 256 256"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -192,8 +192,8 @@ const twcss = (
 const sc = (
   <svg
     className="mr-4 dark:fill-white"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 0 24 24"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
@@ -206,8 +206,8 @@ const sc = (
 const git = (
   <svg
     className="mr-4 fill-black dark:fill-white"
-    width="50"
-    height="50"
+    width="36"
+    height="36"
     viewBox="0 -74 256 256"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -243,9 +243,9 @@ const About = () => {
       <p className="font-serif">Hey there, I am Yin Chu 👋🏻</p>
       <hr />
       <p>
-        I am a 24 year-old frontend web developer based in Athens, Greece.
-        Originally from the Netherlands. Below is a short timeline of what I
-        have done before I decided to switch careers.
+        I am a 24 year-old frontend web developer from The Netherlands, based in
+        Athens. Below is a short timeline of what I have done before I decided
+        to switch careers.
         <br />
         <br />
         <strong>2021 - today</strong>
@@ -253,8 +253,7 @@ const About = () => {
         In 2021, after I graduated, I started working as a sales agent in Breda
         (North Brabant). It turned out that sales was not really my thing. Later
         that year, in October, I moved to Athens together with my girlfriend. I
-        am currently working as a Customer Support Agent at Google (Business
-        Profile).
+        am currently working as a Customer Support Agent at Google.
         <br />
         <br />
         <strong>2016 - 2021</strong>
@@ -266,7 +265,7 @@ const About = () => {
         my bachelor's thesis at a pharmaceutical company in Rotterdam.
       </p>
       <p className="font-bold">Things that I love</p>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 text-sm">
         <p>
           Tech (<i>duh</i>) 💻
         </p>
@@ -280,7 +279,7 @@ const About = () => {
       </div>
 
       <p className="font-bold">Technologies I work with</p>
-      <div className="grid grid-cols-2 gap-2 space-y-4">
+      <div className="grid grid-cols-2 gap-2 space-y-4 text-sm">
         <p className="flex items-center">{html}HTML</p>
         <p className="flex items-center">{css}CSS</p>
         <p className="flex items-center">{js}JavaScript</p>

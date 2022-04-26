@@ -21,14 +21,14 @@ const Work = () => {
             href="https://ycrdev.netlify.app/"
             target="_blank"
           >
-            Live demo
+            Demo
           </a>
           <a
             className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://github.com/YinChuRijnaard/Portfolio"
             target="_blank"
           >
-            GitHub repository
+            GitHub
           </a>
         </div>
       </div>
@@ -57,14 +57,41 @@ const Work = () => {
             href="https://tenzies-ycr.netlify.app/"
             target="_blank"
           >
-            Live demo
+            Demo
           </a>
           <a
             className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://github.com/YinChuRijnaard/Tenzies"
             target="_blank"
           >
-            GitHub repository
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div className="space-y-2 border-[1px] border-black p-4 dark:border-white">
+        <p className="font-bold">Palindrome Checker v2</p>
+        <p>
+          Second iteration of my Palindrome Checker. I built this app to 'pay
+          homage' to the first app I built.
+        </p>
+        <p>
+          <strong>Built with:&nbsp;</strong>React, TypeScript and Tailwind CSS
+        </p>
+        <div className="flex items-center justify-start text-center">
+          <a
+            className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
+            href="https://palindrome-checker-v2-ycr.netlify.app/"
+            target="_blank"
+          >
+            Demo
+          </a>
+          <a
+            className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
+            href="https://github.com/YinChuRijnaard/Palindrome-Checker-v2"
+            target="_blank"
+          >
+            GitHub
           </a>
         </div>
       </div>
@@ -84,14 +111,14 @@ const Work = () => {
             href="https://yinchurijnaard.github.io/Palindrome-Checker/"
             target="_blank"
           >
-            Live demo
+            Demo
           </a>
           <a
             className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://github.com/YinChuRijnaard/Palindrome-Checker"
             target="_blank"
           >
-            GitHub repository
+            GitHub
           </a>
         </div>
       </div>

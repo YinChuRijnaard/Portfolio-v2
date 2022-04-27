@@ -94,7 +94,8 @@ const Contact = () => {
       </h1>
       <p className="font-serif">How to get in touch with me 📱</p>
       <hr />
-      <div className="grid grid-cols-2 gap-2 space-y-4 lg:grid-cols-3">
+
+      <div className="grid grid-cols-2 gap-2 lg:grid-cols-3">
         <a
           className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="https://github.com/YinChuRijnaard"

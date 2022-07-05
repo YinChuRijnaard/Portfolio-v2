@@ -100,6 +100,7 @@ const Contact = () => {
           className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="https://github.com/YinChuRijnaard"
           target="_blank"
+          rel="noreferrer"
         >
           {gh}GitHub
         </a>
@@ -107,6 +108,7 @@ const Contact = () => {
           className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="https://www.linkedin.com/in/rijnaard/"
           target="_blank"
+          rel="noreferrer"
         >
           {li}LinkedIn
         </a>
@@ -114,6 +116,7 @@ const Contact = () => {
           className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="https://twitter.com/yinchurijnaard"
           target="_blank"
+          rel="noreferrer"
         >
           {tw}Twitter
         </a>
@@ -121,6 +124,7 @@ const Contact = () => {
           className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="mailto:ycrijnaard@gmail.com"
           target="_blank"
+          rel="noreferrer"
         >
           {em}Email
         </a>
@@ -128,17 +132,14 @@ const Contact = () => {
           className="flex items-center lg:hover:underline lg:hover:decoration-blue-500 lg:hover:decoration-2"
           href="tel:+31618058625"
           target="_blank"
+          rel="noreferrer"
         >
           {ph}Telephone
         </a>
       </div>
 
       <div className="flex items-center justify-center">
-        <img
-          src={pfp}
-          className="h-48 w-48 rounded-full"
-          alt="Photo of Yin Chu"
-        />
+        <img src={pfp} className="h-48 w-48 rounded-full" alt="Yin Chu" />
       </div>
     </div>
   );

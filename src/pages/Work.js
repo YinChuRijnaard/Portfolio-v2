@@ -8,6 +8,10 @@ const Work = () => {
       </h1>
       <p className="font-serif">Here are some of the things I've built 🛠</p>
       <hr />
+      <p className="font-bold italic text-red-500">
+        I'm currently working on a third, and even better, version of my
+        portfolio.
+      </p>
 
       <div className="space-y-2 border-[1px] border-black p-4 dark:border-white">
         <p className="font-bold">Portfolio v1</p>
@@ -20,6 +24,7 @@ const Work = () => {
             className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://ycrdev.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Demo
           </a>
@@ -27,6 +32,7 @@ const Work = () => {
             className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://github.com/YinChuRijnaard/Portfolio"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
@@ -42,6 +48,7 @@ const Work = () => {
             className="underline decoration-blue-500 decoration-2 lg:hover:text-blue-500 lg:hover:decoration-black lg:dark:hover:decoration-white"
             href="https://scrimba.com/learn/learnreact"
             target="_blank"
+            rel="noreferrer"
           >
             Scrimba
           </a>{" "}
@@ -56,6 +63,7 @@ const Work = () => {
             className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://tenzies-ycr.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Demo
           </a>
@@ -63,6 +71,7 @@ const Work = () => {
             className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://github.com/YinChuRijnaard/Tenzies"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
@@ -83,6 +92,7 @@ const Work = () => {
             className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://palindrome-checker-v2-ycr.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Demo
           </a>
@@ -90,6 +100,7 @@ const Work = () => {
             className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://github.com/YinChuRijnaard/Palindrome-Checker-v2"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
@@ -110,6 +121,7 @@ const Work = () => {
             className="mr-4 border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://yinchurijnaard.github.io/Palindrome-Checker/"
             target="_blank"
+            rel="noreferrer"
           >
             Demo
           </a>
@@ -117,6 +129,7 @@ const Work = () => {
             className="border-2 border-black bg-black px-6 py-2 text-white dark:border-white dark:bg-white dark:text-black lg:hover:border-2 lg:hover:border-black lg:hover:bg-white lg:hover:text-black lg:dark:hover:border-white lg:dark:hover:bg-black lg:dark:hover:text-white"
             href="https://github.com/YinChuRijnaard/Palindrome-Checker"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>

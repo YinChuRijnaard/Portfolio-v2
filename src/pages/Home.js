@@ -6,7 +6,7 @@ const Home = () => {
       <p className="opacity-75">Hi, I'm</p>
       <p className="text-5xl lg:text-8xl">Yin Chu</p>
       <p className="leading-relaxed opacity-75">
-        Web developer from The Netherlands, based in Athens&nbsp;
+        Web developer from The Netherlands&nbsp;
         <span className="text-blue-500">•</span>&nbsp;I create stuff for the
         internet
       </p>

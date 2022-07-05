@@ -242,18 +242,20 @@ const About = () => {
       </h1>
       <p className="font-serif">Hey there, I am Yin Chu 👋🏻</p>
       <hr />
+      <p className="font-bold italic text-red-500">
+        I'm based in the Netherlands. My mother tongue is Dutch!
+      </p>
       <p>
-        I am a 24 year-old frontend web developer from The Netherlands, based in
-        Athens. Below is a short timeline of what I have done before I decided
-        to switch careers.
+        I am a 24 year-old frontend web developer from The Netherlands. Below is
+        a short timeline of what I have done before I decided to switch careers.
         <br />
         <br />
         <strong>2021 - today</strong>
         <br />
         In 2021, after I graduated, I started working as a sales agent in Breda
-        (North Brabant). It turned out that sales was not really my thing. Later
-        that year, in October, I moved to Athens together with my girlfriend. I
-        am currently working as a Customer Support Agent at Google.
+        (North Brabant). It turned out that sales was not really my thing. I
+        have worked at Google, in Athens, as a Customer Support Agent for the
+        past nine months. I'm currently looking for my first job in tech.
         <br />
         <br />
         <strong>2016 - 2021</strong>
